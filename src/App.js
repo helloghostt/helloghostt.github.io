@@ -233,8 +233,8 @@ const App = () => {
           >
             <div className="flex flex-row items-center mb-4">
               <img
-                src="/profile.jpg"
-                alt="Park ChoRong"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQGwAq5o1pVXMQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710846323212?e=1731542400&v=beta&t=lcj3GrktMeH0s-yUXjzcuHPOj4kxUAQ3VF6mbkZQcOo"
+                alt="profile"
                 className="w-24 h-24 rounded-3xl object-cover shadow-lg md:w-32 md:h-32"
               />
 
@@ -274,7 +274,8 @@ const App = () => {
             <Section title="👀 Education" id="education">
               <List
                 items={[
-                  "Web Development | 웹 개발",
+                  "Web Development | 웹 개발 | Django 백엔드 과정 2024 | https://www.orm.im/camp ",
+                  "Web Development | 웹 개발 | 강남구 혁신인재 아카데미 프론트엔드 과정 2024 | https://blog.naver.com/gn_ictacademy",
                   "Artificial Intelligence | AI인공지능",
                   "Mathematics Education | 수학교육",
                 ]}
@@ -372,6 +373,13 @@ const App = () => {
                   <FaGithub className="text-gray-400" size={24} />
                   <span>github.com/helloghostt</span>
                 </motion.a>
+              </div>
+              <div className="flex items-center justify-center">
+                <img
+                  src="https://github-readme-stats.vercel.app/api?username=helloghostt&show_icons=true&theme=tokyonight"
+                  height="200px"
+                  alt="weed"
+                />
               </div>
               <div className="flex justify-end mt-8">
                 <ScrollToTopButton isVisible={isVisible} />

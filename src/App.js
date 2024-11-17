@@ -32,12 +32,13 @@ const VisitorCounter = () => {
 };
 const NavBar = ({ activeSection }) => {
   const sections = [
-    "About",
-    "Education",
-    "Project",
-    "Certificate",
-    "Stacks",
-    "Contact",
+    "자기소개",
+    "학력",
+    "경력", 
+    "프로젝트",
+    "자격증",
+    "기술스택",
+    "연락처",
   ];
 
   return (
@@ -180,8 +181,8 @@ const App = () => {
 
   const projects = [
     {
-      date: "2024.08 - 진행중",
-      title: "Razvery - 팀프로젝트 기획2명 개발2명",
+      date: "2024.08 - 09",
+      title: "Razvery - 팀프로젝트 기획2명 개발2명/ 최우수상",
       description:
         "열린 아이디어를 실시간 공유하는 서비스입니다. 이 서비스의 핵심기능은 제한 시간이 있는 채팅과 보드 형태입니다. 사람과 사람 사이의 의미 있는 연결로 긍정적인 사회 변화를 가져오고자 고민하는데서 착안되었습니다.",
       repo: "https://github.com/obokproject",
@@ -233,7 +234,7 @@ const App = () => {
           >
             <div className="flex flex-row items-center mb-4">
               <img
-                src="https://media.licdn.com/dms/image/v2/D4E03AQGwAq5o1pVXMQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1710846323212?e=1731542400&v=beta&t=lcj3GrktMeH0s-yUXjzcuHPOj4kxUAQ3VF6mbkZQcOo"
+                src="https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png"
                 alt="profile"
                 className="w-24 h-24 rounded-3xl object-cover shadow-lg md:w-32 md:h-32"
               />
@@ -280,6 +281,21 @@ const App = () => {
                   "Mathematics Education | 수학교육",
                 ]}
               />
+            </Section>
+                  
+            <Section title="💼 Employment" id="employment">
+              <li className="mb-6">
+                <div className="font-semibold text-gray-100 pt-4">
+                  2024.10 - 11 | 프론트엔드 개발자 인턴십 | 렛츠립업(TMD)
+                </div>
+                <List
+                  items={[
+                    "반응형 웹 디자인과 구현",
+                    "TypeScript와 React를 활용한 웹 애플리케이션 개발",
+                    "프로젝트 기획 및 문서화 작업 참여",
+                  ]}
+                />
+              </li>
             </Section>
 
             <Section title="💞️ Project" id="project">
